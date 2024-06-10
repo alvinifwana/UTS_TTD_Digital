@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        .about_img {
+            width: 75px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize" href="index.html">
+                <img src="utb_kotak-removebg-preview.png" alt="Logo"> Tanda Tangan Digital
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="ttd-Alvin.html">Alvin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="eko.html">Eko</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">Alfa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-center">
+                <figure>
+                  <img src="UTB.png" class="img-fluid" style="width: 150px; height: 150px;">
+                </figure>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column">
+                <h1>Tanda Tangan Digital</h1><br>
+                <h5>Nama: Alvin Ifhwana Eka Diputra</h5>
+                <h5>NIM: 22552011042</h5>
+                <h5>Kelas: TIF 222 PC</h5>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-12">
+                <h2>Tanda Tangan </h2>
+                  <img src="ttd alvin.jpg" class="img-fluid" style="width: 200px; height: 200px;">
+                <br> <br>
+
+                <iframe src="contoh.pdf" width="1000" height="700"></iframe>
+              </div>
+
+              
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFyC8RW/cnQ0i5GdKfQ1iM5VtOXpcoVB7LWt0a8E1AnmPJ6IRF/nq2hxM" crossorigin="anonymous"></script>
+    <footer>
+      <div class="container">
+          <p>&copy; <span id="currentYear"></span> Create by Alvin, Alpa, Ageng.</p>
+          <script>
+              var today = new Date();
+              var year = today.getFullYear();
+              var month = today.getMonth() + 1;
+              var day = today.getDate();
+              var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+              var dayName = days[today.getDay()];
+
+              document.getElementById('currentYear').textContent = year + ' - ' + month + ' - ' + day + ' (' + dayName + ')';
+          </script>
+      </div>
+  </footer>
+
+</body>
+</html>
